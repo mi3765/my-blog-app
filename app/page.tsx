@@ -1,5 +1,10 @@
-import Image from "next/image";
+import Head from "./Head";
 
 export default function Home() {
-	return <div>Home</div>;
+	return (
+		<>
+			<Head />
+			<div>Home</div>
+		</>
+	);
 }
